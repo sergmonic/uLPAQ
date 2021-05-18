@@ -268,7 +268,7 @@ masa_minima<-function(u_r,densidad,balanza="ME204",u_densidad=0.05,T_=c(21.5,15.
   log_min_masa=Re(roots[roots_indx])
   min_mass=ceiling(10^log_min_masa[1])
   plot(x,u_xr,log="xy",type="b",pch=16,cex=0.5,col="blue",
-       xlab="masa / mg", ylab=TeX(r'($u_{sr} / \%$)'),las=1, main=paste("Curva caracteristica de balanza ",balanza))
+       xlab="masa / mg", ylab=bquote(u[sr]),las=1, main=paste("Curva caracteristica de balanza ",balanza))
   abline(h=u_r,lty=2,col="red")
   abline(v=min_mass,lty=2,col="blue")
   text(min_mass,u_r,bquote(m[min]~"= "~.(min_mass)~"mg"),pos = 4)
