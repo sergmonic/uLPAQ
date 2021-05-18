@@ -1,0 +1,30 @@
+Package: uLPAQ
+Title: estimación de incertidumbre para prácticas de LPAQ
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Sergio A.",
+           family = "González",
+           role = c("aut", "cre"),
+           email = "sergmonic@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Herramientas para estimación  incertumbre de fuentes asociada a prácticas del Laboratorio de Principios de Análisis Químico (LPAQ) - Departamento de Química - Universidad Nacional de Colombia - Sede Bogotá. 
+Depends: 
+    R (>= 2.10),
+    inflection,
+    nplr,
+    latex2exp,
+    Deriv
+Imports:
+    stats
+Suggests:
+    devtools,
+    readxl,
+    AtomicWeights,
+    PeriodicTable,
+    metRology
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+
