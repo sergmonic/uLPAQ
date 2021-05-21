@@ -565,6 +565,7 @@ pureza<-function(P,delta=0.0,tecnica="n",sInstrum=FALSE,dist="rectangular"){
     .P=(P[1]+P[2])/2
     .u_P=(P[1]-P[2])/(2*factoresEstadarizacion(dist))
   }
+  data.frame(P=.P,u_P=.u_P)
 }
 
 
